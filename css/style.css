@@ -1,0 +1,168 @@
+/* ===============ПОДКЛЮЧЕНИЯ=============== */
+
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+/* ===============СКАЧЕННЫЕ ШРИФТЫ=============== */
+
+/* ===============WRAPPER=============== */
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+/* ===============INDEX=============== */
+body {
+    background-color: #f5f5f5;
+    padding: 50px 0px;
+    font-family: "Roboto", sans-serif;
+}
+.promise {
+}
+[class*="__container"] {
+    max-width: 1017px;
+    margin: 0 auto;
+}
+.promise__subtitle {
+    color: #5d62b5;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 32px;
+    position: relative;
+    margin-bottom: 33px;
+}
+.promise__subtitle::before {
+    content: "";
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    background: url("../img/icons/mark.svg") center no-repeat;
+    position: absolute;
+    top: 3px;
+    left: 0px;
+}
+.promise__title {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 900;
+    margin-bottom: 42px;
+}
+.cards-box {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+.cards-box__card {
+    flex: 0 0 323px;
+    padding: 1px 3px 1px 86px;
+}
+.cards-box__title {
+    color: #f2726f;
+    font-size: 19px;
+    line-height: 1.4;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.cards-box__text {
+    color: #4b4b4b;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+}
+.cards-box__card_1 {
+    background: url("../img/promis_card_1.svg") 0 0 no-repeat;
+}
+.cards-box__card_2 {
+    background: url("../img/promis_card_2.svg") 0 0 no-repeat;
+}
+.cards-box__card_3 {
+    background: url("../img/promis_card_3.svg") 0 0 no-repeat;
+}
+
+/* ==================== */
+
+.impact {
+    background: #29c3be url("../img/blob.png") 660px 0 no-repeat;
+    padding: 110px 0px 210px 0px;
+    color: #fff;
+}
+.impact__container {
+    position: relative;
+}
+.impact__subtitle {
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 32px;
+    position: relative;
+    margin-bottom: 32px;
+}
+.impact__subtitle::before {
+    content: "";
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    background: url("../img/icons/mark_light.svg") center no-repeat;
+    position: absolute;
+    top: 3px;
+    left: 0px;
+}
+.impact__title {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 900;
+    margin-bottom: 42px;
+    max-width: 411px;
+    margin-bottom: 80px;
+}
+.cards-impact-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.cards-impact-box__card {
+    flex: 0 0 236px;
+    padding: 4px 0px 1px 87px;
+    min-height: 76px;
+}
+.cards-impact-box__number {
+    font-size: 42px;
+    line-height: 1.2;
+    font-weight: 900;
+    margin-bottom: 3px;
+}
+.cards-impact-box__text {
+    color: #5d62b5;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: 0.15px;
+}
+.cards-impact-box__card_1 {
+    background: url("../img/impact_card_1.svg") 0 center no-repeat;
+}
+.cards-impact-box__card_2 {
+    background: url("../img/impact_card_2.svg") 0 center no-repeat;
+}
+.cards-impact-box__card_3 {
+    background: url("../img/impact_card_3.svg") 0 center no-repeat;
+}
+.cards-impact-box__card_4 {
+    background: url("../img/impact_card_4.svg") 0 center no-repeat;
+}
+.impact__picture {
+    position: absolute;
+    top: -185px;
+    right: 0;
+    overflow: hidden;
+    border-radius: 42px;
+}
+.impact__dog-picture {
+}
